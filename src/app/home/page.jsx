@@ -1,6 +1,8 @@
+"use client";
 import BackToTop from "@/components/common/BackToTop";
 import Footer from "@/components/common/Footer";
 import NavBar from "@/components/common/NavBar";
+import Preloader from "@/components/common/preloader";
 import Accordian from "@/components/home/Accordian";
 import Ellos from "@/components/home/Ellos";
 import Ezuko from "@/components/home/Ezuko";
@@ -16,12 +18,26 @@ import NutroAtributo from "@/components/home/NutroAtributo";
 import Platinum from "@/components/home/Platinum";
 import Propia from "@/components/home/Propia";
 import Slots from "@/components/home/Slots";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const page = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000); // Adjust the timeout as needed
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    document.body.style.overflow = loading ? "hidden" : "unset";
+  }, [loading]);
   return (
     <>
       <BackToTop />
+      <Preloader />
       <div className="bg-darkBlue">
         <div className=" bg-[url('/assets/images/background/hero-image.webp')] bg-no-repeat bg-cover min-h-screen flex flex-col relative">
           <NavBar />
