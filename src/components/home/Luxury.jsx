@@ -42,7 +42,7 @@ const Luxury = () => {
             <h3 className="font-anton text-md text-white font-normal text-3xl">
               Luxury
             </h3>
-            <p className="font-medium text-xs sm:text-sm font-Inter text-white opacity-80 mt-3 sm:mt-4 max-w-[345px]">
+            <p className="font-medium text-sm sm:text-base font-Inter text-white opacity-80 mt-3 sm:mt-4 max-w-[345px]">
               lleva tu experiencia de juego al siguiente nivel. Con todas las
               características de la versión Silver y la potencia adicional de la
               tecnología React .
@@ -55,14 +55,14 @@ const Luxury = () => {
                 <div className="mt-2" key={index}>
                   <div className="flex items-start gap-2 mt-4 ">
                     <GreenTick />
-                    <p className="font-medium text-xs sm:text-sm font-Inter text-white opacity-80 text-center mx-auto max-w-[387px]">
+                    <p className="font-medium text-sm sm:text-base font-Inter text-white opacity-80 text-center mx-auto max-w-[387px]">
                       {value.tittle}
                     </p>
                   </div>
                 </div>
               ))}
             </div>
-            <div className="flex items-center justify-center mt-10">
+            <div className="flex items-center justify-center mt-9">
               <CommonButtonLiner content="Comprar ahora" />
             </div>
           </div>

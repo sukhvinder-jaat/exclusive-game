@@ -5,7 +5,7 @@ import CommonButtonLiner from "../common/CommonButtonLiner";
 const KasinoNingh = () => {
   return (
     <div
-      className="container max-w-[1152px] mx-auto px-3 xl:pt-0 pt-10"
+      className="container max-w-[1140px] mx-auto xl:px-0 px-3 xl:pt-0 pt-10"
       id="kasinoNight"
     >
       <div className="flex flex-wrap lg:flex-row flex-col-reverse items-center justify-center relative z-30">

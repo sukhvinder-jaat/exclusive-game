@@ -57,7 +57,7 @@ const page = () => {
         </div>
         <div className=" bg-[url('/assets/images/pocker/white_cut.svg')] xl:pt-[300px] pb-[200px] md:py-[200px] py-[150px] bg-no-repeat bg-cover relative z-10 mt-[-750px]">
           <KasinoNingh />
-          <div className=" bg-white w-full h-[172px] skew-y-[5deg] relative z-20 mb-[-285px]"></div>
+          <div className=" bg-white w-full h-[172px] skew-y-[5deg] relative z-20 mb-[-270px]"></div>
         </div>
         <div className="bg-darkBlue pt-[350px] translate-y-[-100px]">
           <Mas />

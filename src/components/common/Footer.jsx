@@ -9,28 +9,30 @@ const Footer = () => {
     <div className="bg-black mt-[-100px] relative overflow-hidden">
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[208px] bottom-[-50%] end-[-10%] translate-y-[-50%] pointer-events-none"></div>
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[208px] top-[-50%] start-[-10%] translate-y-[-50%] pointer-events-none"></div>
-      <div className="container max-w-[1152px] mx-auto px-3 md:pt-16 sm:pt-10 pt-7 pb-10">
+      <div className="container max-w-[1140px] mx-auto xl:px-0 px-3 md:pt-16 sm:pt-10 pt-7 pb-10">
         <div className="flex flex-wrap">
-          <div className="lg:w-4/12 w-full">
-            <Image
-              src="/assets/images/logo/nav.svg"
-              width={210}
-              height={43}
-              className="w-full mb-4 max-w-[210px]"
-              alt="logo"
-            />
-            <p className=" text-white font-inter font-medium text-base mb-6 opacity-70">
+          <div className="lg:w-4/12 w-full flex flex-col items-start">
+            <Link href="#" className="mb-4">
+              <Image
+                src="/assets/images/logo/nav.svg"
+                width={210}
+                height={43}
+                className="w-full  max-w-[210px]"
+                alt="logo"
+              />
+            </Link>
+            <p className=" text-white font-inter font-medium text-base mb-6 opacity-70 max-w-[370px]">
               En Exclusive Games somos un equipo apasionado de personas
               dedicadas al desarrollo de multiplataformas para juegos de azar
             </p>
             <div className="flex gap-3 items-center">
               {footerIcon.map((value, index) => (
                 <Link
-                  href="/"
+                  href={value.link}
                   className=" hover:scale-90 transition-all ease-linear duration-200"
                   key={index}
                 >
-                  {value}
+                  {value.icon}
                 </Link>
               ))}
             </div>
@@ -56,7 +58,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="flex items-center justify-center py-5 border-t-[1px] border-[#191919] text-center gap-2 opacity-70 text-white font-medium text-base hover:opacity-100 duration-100 ease-in-out transition-all px-2">
+      <p className="flex items-center justify-center py-5 border-t-[1px] border-[#191919] text-center gap-2 opacity-70 text-white font-medium text-base px-2">
         © Juegos exclusivos - Todos los derechos reservados {currentYear}
       </p>
     </div>

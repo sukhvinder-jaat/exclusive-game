@@ -83,9 +83,9 @@ export const ezukoCard = [
 ];
 // ellos card
 export const ellosCard = [
-  { image: "/assets/images/ezuko/card_image_1.webp" },
-  { image: "/assets/images/ezuko/card_image_2.webp" },
-  { image: "/assets/images/ezuko/card_image_3.webp" },
+  { image: "/assets/images/ellos/card_image_1.png" },
+  { image: "/assets/images/ellos/card_image_2.png" },
+  { image: "/assets/images/ellos/card_image_3.png" },
 ];
 // mas card data
 export const masCards = [
@@ -141,7 +141,11 @@ export const accordianData = [
   },
 ];
 // footer icon
-export const footerIcon = [<Instagram />, <FaceBook />, <LinkedIn />];
+export const footerIcon = [
+  { link: "https://www.instagram.com/", icon: <Instagram /> },
+  { link: "https://www.facebook.com/login/", icon: <FaceBook /> },
+  { link: "https://www.linkedin.com/", icon: <LinkedIn /> },
+];
 
 // nutro Atributo
 export const nutroAtributo = [

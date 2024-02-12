@@ -8,7 +8,7 @@ const Jackpot = () => {
     <div className=" relative">
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[484px] h-[484px] rounded-full blur-[208px] top-[-50%] start-[-30%] pointer-events-none"></div>
       <div
-        className="container max-w-[1152px] mx-auto px-3 xl:pb-[150px] pb-20"
+        className="container max-w-[1140px] mx-auto xl:px-0 px-3 xl:pb-[150px] pb-20"
         id="jackpot"
       >
         <div className="flex flex-wrap items-center justify-center relative z-10">

@@ -11,20 +11,23 @@ const NavBar = () => {
 
   const sidebarHandler = () => {
     setIsSidebarOpen(!isSidebarOpen);
-    document.body.classList.toggle("overflow-hidden");
+    document.body.classList.toggle("body_scroll_hidden");
   };
 
   return (
-    <nav className="bg-[#FFFFFF1A] py-4 flex-grow-0" id="home">
+    <nav
+      className="bg-[#FFFFFF1A] py-4 flex-grow-0 min-h-[90px] flex items-center"
+      id="home"
+    >
       <div className="flex items-center justify-between container xl:max-w-[1140px] mx-auto xl:px-0 px-3">
         <Image
           src="/assets/images/logo/nav.svg"
           width={210}
           height={43}
           alt="Logo"
-          className="h-8 w-full max-w-[210px]"
+          className="h-8 w-full min-h-[43px] max-w-[210px]"
         />
-        <ul className="hidden lg:flex space-x-4">
+        <ul className="hidden lg:flex space-x-7">
           {navBarLink.map((link, index) => (
             <li key={index}>
               <Link
@@ -58,14 +61,6 @@ const NavBar = () => {
         } transition duration-300 ease-in-out`}
       >
         <div className="p-4 flex flex-col justify-center items-center h-full relative z-50">
-          {" "}
-          {/* Sidebar */}
-          {isSidebarOpen && (
-            <div
-              className="lg:hidden absolute h-full w-full inset-0 bg-black opacity-50 z-40"
-              onClick={sidebarHandler}
-            ></div>
-          )}
           <button
             className="text-white text-3xl absolute top-5 end-5"
             onClick={sidebarHandler}

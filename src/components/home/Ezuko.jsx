@@ -6,7 +6,7 @@ const Ezuko = () => {
   return (
     <div className=" relative">
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[484px] h-[484px] rounded-full blur-[208px] bottom-[-60%] end-[-30%] translate-y-[-50%] pointer-events-none"></div>
-      <div className="container max-w-[1152px] mx-auto px-3">
+      <div className="container max-w-[1140px] mx-auto xl:px-0 px-3">
         <p className="relative z-10 font-anton font-normal text-white xl:text-5xl text-3xl text-center leading-[118%] xl:mb-[60px] mb-10">
           Juegos en vivo
         </p>

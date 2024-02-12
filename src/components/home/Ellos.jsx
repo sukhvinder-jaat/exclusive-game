@@ -4,7 +4,7 @@ import { ellosCard } from "../common/Helper";
 
 const Ellos = () => {
   return (
-    <div className="container max-w-[1152px] mx-auto px-3 xl:mb-[170px] md:mb-28 sm:mb-20 mb-16">
+    <div className="container max-w-[1140px] mx-auto xl:px-0 px-3 xl:mb-[170px] md:mb-28 sm:mb-20 mb-16">
       <h2 className=" font-anton md:text-5xl text-3xl text-white text-center font-normal leading-[112%]">
         Ellos eligieron apostar con nosotros
       </h2>
