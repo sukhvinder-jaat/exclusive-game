@@ -17,7 +17,7 @@ const Slots = () => {
       </h2>
       {/* Description */}
       <div className="flex justify-center mt-4" data-aos="fade-down">
-        <p className="font-Inter font-medium md:text-base text-sm text-darkBlue text-center opacity-70 max-w-[900px] leading-[160%]">
+        <p className="font-Inter font-medium md:text-base text-sm text-darkBlue text-center max-w-[900px] leading-[160%]">
           En Exclusive Games, ofrecemos una selección de más de 600 juegos de
           los principales desarrolladores, como Aristocrat, Amatic, EGT,
           Novomatic, IGT, Playtech, Igrosoft y Tom Horn. Nuestro equipo trabaja
@@ -35,7 +35,7 @@ const Slots = () => {
             data-aos="fade-right"
           >
             {/* Rendering each slot card */}
-            <SlotsCard image={value.image} buttontitle="Jugar" />
+            <SlotsCard image={value.image} buttonTitle="Jugar" />
           </div>
         ))}
       </div>

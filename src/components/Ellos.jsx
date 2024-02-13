@@ -23,7 +23,7 @@ const Ellos = () => {
             data-aos="flip-left"
           >
             {/* SlotsCard component */}
-            <SlotsCard image={value.image} buttontitle="Jugar" />
+            <SlotsCard image={value.image} buttonTitle="Jugar" />
           </div>
         ))}
         {/* Additional text */}

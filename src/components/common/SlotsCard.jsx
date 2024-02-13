@@ -4,7 +4,7 @@ import WhiteButton from "./button/WhiteButton"; // Importing WhiteButton compone
 
 // SlotsCard component
 const SlotsCard = (props) => {
-  const { image, buttontitle } = props; // Destructuring props
+  const { image, buttonTitle } = props; // Destructuring props
 
   return (
     <div className="relative border border-transparent hover:border-lightGreen rounded-lg transition-all ease-in-out duration-300">
@@ -13,7 +13,7 @@ const SlotsCard = (props) => {
         <div className="bg-black rounded-lg opacity-0 group-hover/items:opacity-60 duration-300 border-transparent w-full flex justify-center items-center absolute h-full"></div>
         {/* WhiteButton */}
         <div className="absolute top-[50%] start-[50%] translate-x-[-50%] translate-y-[-50%] opacity-0 group-hover/items:opacity-100 duration-300">
-          <WhiteButton title={buttontitle} />
+          <WhiteButton title={buttonTitle} />
         </div>
       </div>
       {/* Slot image */}

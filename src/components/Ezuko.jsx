@@ -27,7 +27,7 @@ const Ezuko = () => {
               data-aos="flip-left"
             >
               {/* SlotsCard component */}
-              <SlotsCard image={value.image} buttontitle="Reproducir ahora" />
+              <SlotsCard image={value.image} buttonTitle="Reproducir ahora" />
             </div>
           ))}
         </div>
