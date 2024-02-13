@@ -12,13 +12,12 @@ const KasinoNingh = () => {
         <div className="lg:w-6/12 md:w-7/12 sm:w-10/12 w-full lg:pe-5 lg:mt-0 mt-8">
           <div
             className="flex items-center lg:items-start flex-col"
-            data-aos-delay="600"
             data-aos="fade-up-right"
           >
-            <p className=" font-anton font-normal text-darkBlue xl:text-5xl text-3xl mb-4 leading-[97%]">
+            <p className="font-anton font-normal text-darkBlue xl:text-5xl text-3xl mb-4 leading-[97%]">
               Por qué elegirnos
             </p>
-            <p className=" font-inter font-medium md:text-base text-sm text-darkBlue max-w-[515px] lg:text-start text-center leading-[160%]">
+            <p className="font-inter font-medium md:text-base text-sm text-darkBlue max-w-[515px] lg:text-start text-center leading-[160%]">
               Con Exclusive Games tenés Exclusivos beneficios. Te reintegramos
               todo lo invertido en fichas en la moneda que elijas. En Exclusive
               Games siempre sumamos nuevos juegos. Juegos crash, los juegos
@@ -37,7 +36,6 @@ const KasinoNingh = () => {
             height={439}
             className="w-full"
             alt="kasino_night"
-            data-aos-delay="600"
             data-aos="fade-up-left"
           />
         </div>

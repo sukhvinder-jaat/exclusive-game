@@ -66,7 +66,7 @@ const NavBar = () => {
             className="text-white text-3xl absolute top-5 end-5"
             onClick={sidebarHandler}
           >
-            <span className=" relative z-50">
+            <span className="relative z-50">
               <RxCross2 />
             </span>
           </button>
@@ -84,7 +84,7 @@ const NavBar = () => {
             ))}
           </ul>
           {/* common btn */}
-          <div className=" relative z-50">
+          <div className="relative z-50">
             <CommonButtonWhite content="Acceso" />
           </div>
         </div>

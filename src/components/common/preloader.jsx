@@ -28,10 +28,10 @@ const Preloader = () => {
           className="card_animation "
         />
         <div>
-          <p className=" text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton  leading-[112%]">
+          <p className="text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton  leading-[112%]">
             Exclusive Games.
           </p>
-          <p className=" text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton  leading-[112%]">
+          <p className="text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton  leading-[112%]">
             Pasión por ganar
           </p>
         </div>

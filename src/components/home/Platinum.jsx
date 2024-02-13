@@ -4,12 +4,11 @@ import CommonButtonWhite from "../common/CommonButtonWhite";
 import { GreenTick } from "../common/Icons";
 const Platinum = () => {
   return (
-    <div className=" md:pb-[150px] pb-32 relative">
-      <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[484px] h-[484px] rounded-full blur-[208px] top-[10%] start-[-30%] translate-y-[-50%] pointer-events-none sm:block hidden"></div>
-      <div className=" container xl:max-w-[1140px] px-3 mx-auto">
+    <div className="md:pb-[150px] pb-32 relative">
+      <div className="absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[484px] h-[484px] rounded-full blur-[208px] top-[10%] start-[-30%] translate-y-[-50%] pointer-events-none sm:block hidden"></div>
+      <div className="container xl:max-w-[1140px] px-3 mx-auto">
         <div
           className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 lg:mt-[60px] rounded-[16px]  sm:p-10 p-5 lg:py-[78px] lg:px-12"
-          data-aos-delay="600"
           data-aos="fade-up-right"
         >
           <div className="flex flex-wrap lg:flex-row flex-col-reverse justify-between lg:items-center">
@@ -24,7 +23,7 @@ const Platinum = () => {
               <h2 className="font-anton text-3xl md:text-5xl text-white mt-8 font-normal">
                 Consultar precio
               </h2>
-              <div className=" mt-4">
+              <div className="mt-4">
                 <div className="mt-2">
                   <div className="flex items-start gap-2 mt-4 ">
                     <GreenTick />
@@ -34,13 +33,13 @@ const Platinum = () => {
                   </div>
                 </div>
               </div>
-              <div className=" mt-10">
+              <div className="mt-10">
                 <CommonButtonWhite content="Comprar ahora" />
               </div>
             </div>
             <div className="lg:w-7/12 sm:px-3">
               <div className="relative">
-                <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[154px] h-[154px] rounded-full blur-[58px] top-1 end-4  pointer-events-none"></div>
+                <div className="absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[154px] h-[154px] rounded-full blur-[58px] top-1 end-4  pointer-events-none"></div>
                 <Image
                   width={602}
                   height={419}

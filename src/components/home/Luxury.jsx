@@ -8,8 +8,7 @@ import { nutroAtributo } from "../common/Helper";
 const Luxury = () => {
   return (
     <div
-      className=" container xl:max-w-[1140px] px-3 mx-auto bg-[url('/assets/images/background/luxury.webp')]  bg-no-repeat bg-cover mb-16"
-      data-aos-delay="600"
+      className="container xl:max-w-[1140px] px-3 mx-auto bg-[url('/assets/images/background/luxury.webp')]  bg-no-repeat bg-cover mb-16"
       data-aos="fade-up-right"
     >
       <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 lg:mt-[60px] rounded-[16px] py-11 px-2">
@@ -46,7 +45,7 @@ const Luxury = () => {
             alt="dice"
             className="absolute bottom-[10%] lg:end-[20%] end-[10%] sm:block hidden animate-bounce"
           />
-          <div className=" flex flex-col items-center">
+          <div className="flex flex-col items-center">
             <h3 className="font-anton text-md text-white font-normal text-3xl">
               Luxury
             </h3>
@@ -58,7 +57,7 @@ const Luxury = () => {
             <h2 className="font-anton text-3xl md:text-5xl text-white mt-8 mb-2">
               $9000
             </h2>
-            <div className=" text-center">
+            <div className="text-center">
               {nutroAtributo.map((value, index) => (
                 <div className="mt-2" key={index}>
                   <div className="flex items-start gap-2 mt-4 ">

@@ -1213,7 +1213,7 @@ export const TopArrow = () => {
       height="44"
       viewBox="0 0 276 44"
       fill="none"
-      className=" w-full"
+      className="w-full"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
@@ -1271,7 +1271,7 @@ export const BottomArrow = () => {
 export const PreloaderIcon = () => {
   return (
     <svg
-      className=" m-auto w-40 h-40"
+      className="m-auto w-40 h-40"
       width="128"
       height="128"
       viewBox="0 0 128 128"

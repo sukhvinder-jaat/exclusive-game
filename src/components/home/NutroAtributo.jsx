@@ -6,30 +6,27 @@ import CommonButtonWhite from "../common/CommonButtonWhite";
 
 const NutroAtributo = () => {
   return (
-    <div className=" container xl:max-w-[1140px] px-3 mx-auto">
+    <div className="container xl:max-w-[1140px] px-3 mx-auto">
       <h2
         className="font-anton text-3xl md:text-5xl text-white text-center font-normal"
-        data-aos-delay="600"
         data-aos="fade-up"
       >
         Nuestras ofertas
       </h2>
       <p
         className="mt-3 sm:mt-4 text-center font-medium text-sm sm:text-base font-Inter text-white max-w-[904px] mx-auto"
-        data-aos-delay="600"
         data-aos="fade-up"
       >
         Te ofrecemos las mejores experiencias de juegos para tus clientes.
       </p>
       <div
         className="border border-[rgba(255,_255,_255,_0.5)] mt-7 lg:mt-[60px] rounded-[16px] sm:p-10 p-5 lg:p-[57px_40px_30px_40px]"
-        data-aos-delay="600"
         data-aos="fade-up-right"
       >
         <div className="flex flex-wrap justify-between items-center">
           <div className="lg:w-7/12 sm:px-3">
             <div className="relative flex flex-col">
-              <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[204px] h-[204px] rounded-full blur-[100px] bottom-[50%] start-[-2%]  pointer-events-none"></div>
+              <div className="absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[204px] h-[204px] rounded-full blur-[100px] bottom-[50%] start-[-2%]  pointer-events-none"></div>
               <Image
                 width={500}
                 height={500}
@@ -52,7 +49,7 @@ const NutroAtributo = () => {
             <h2 className="font-anton text-3xl md:text-5xl text-white mt-8">
               $500
             </h2>
-            <div className=" mt-4">
+            <div className="mt-4">
               {nutroAtributo.map((value, index) => (
                 <div className="mt-2" key={index}>
                   <div className="flex items-start gap-2 mt-4 ">
@@ -64,7 +61,7 @@ const NutroAtributo = () => {
                 </div>
               ))}
             </div>
-            <div className=" mt-10">
+            <div className="mt-10">
               <CommonButtonWhite content="Comprar ahora" />
             </div>
           </div>

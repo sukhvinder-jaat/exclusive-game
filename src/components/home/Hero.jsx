@@ -4,11 +4,11 @@ import CommonButtonLiner from "../common/CommonButtonLiner";
 const Hero = () => {
   return (
     <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 flex-grow-[1] flex items-center justify-center">
-      <div className=" flex flex-col items-center">
-        <p className=" text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton  leading-[112%]">
+      <div className="flex flex-col items-center">
+        <p className="text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton  leading-[112%]">
           Exclusive Games.
         </p>
-        <p className=" text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton  leading-[112%]">
+        <p className="text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton  leading-[112%]">
           Pasión por ganar
         </p>
         <p className="mt-4 font-inter sm:text-base text-sm font-medium text-center text-white opacity-75 max-w-[730px] md:mb-10 mb-6 leading-[160%]">
