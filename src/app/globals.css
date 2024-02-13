@@ -1,6 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 * {
   scroll-behavior: smooth !important;
+}
+.body_scroll_hidden {
+  overflow: hidden !important;
+  height: 100vh !important;
+}
+.card_animation {
+  animation: cardAnimation 2s linear infinite;
+}
+@keyframes cardAnimation {
+  0% {
+    transform: scale(0.9) translateY(-10%);
+  }
+  50% {
+    transform: scale(1) translateY(0);
+  }
+  100% {
+    transform: scale(0.9) translateY(-10%);
+  }
 }

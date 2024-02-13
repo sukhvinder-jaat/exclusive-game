@@ -1,7 +1,7 @@
 "use client";
 import BackToTop from "@/components/common/BackToTop";
-import Footer from "@/components/common/Footer";
-import NavBar from "@/components/common/NavBar";
+import Footer from "@/components/Footer";
+import NavBar from "@/components/NavBar";
 import Preloader from "@/components/common/preloader";
 import Accordian from "@/components/Accordian";
 import Ellos from "@/components/Ellos";
@@ -39,7 +39,7 @@ const page = () => {
       <BackToTop />
       <Preloader />
       <div className="bg-darkBlue overflow-hidden">
-        <div className="bg-[url('/assets/images/background/hero-image.webp')] bg-no-repeat bg-cover min-h-screen flex flex-col relative">
+        <div className="bg-[url('/assets/images/background/hero_image.webp')] bg-no-repeat bg-cover min-h-screen flex flex-col relative">
           <NavBar />
           <Hero />
           <div className="absolute bg-black blur-[25px] h-14 w-full bottom-[-30px] pointer-events-none"></div>

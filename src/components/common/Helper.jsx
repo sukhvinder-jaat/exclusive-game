@@ -4,7 +4,7 @@ import {
   GreenBulb,
   GreenValue,
   Instagram,
-  LightGreenBuld,
+  LightGreenBulb,
   LightGreenFeature,
   LightGreenMan,
   LinkedIn,
@@ -16,42 +16,42 @@ import {
 
 // navbar links
 export const navBarLink = [
-  { tittle: "Hogar", path: "#home" },
-  { tittle: "Misión", path: "#faq" },
-  { tittle: "Tragamonedas", path: "#slots" },
-  { tittle: "Por qué elegirnos", path: "#kasinoNight" },
-  { tittle: "Ofertas", path: "#jackpot" },
+  { title: "Hogar", path: "#home" },
+  { title: "Misión", path: "#faq" },
+  { title: "Tragamonedas", path: "#slots" },
+  { title: "Por qué elegirnos", path: "#kasinoNight" },
+  { title: "Ofertas", path: "#jackpot" },
 ];
 // footer icon
 export const footerLinks = [
   {
-    tittle: "Menú principal",
+    title: "Menú principal",
     link: [
-      { subTittle: "Hogar", path: "#home" },
-      { subTittle: "Misión", path: "#faq" },
-      { subTittle: "Tragamonedas", path: "#slots" },
-      { subTittle: "Por qué elegirnos", path: "#kasinoNight" },
-      { subTittle: "Ofertas", path: "#jackpot" },
+      { subTitle: "Hogar", path: "#home" },
+      { subTitle: "Misión", path: "#faq" },
+      { subTitle: "Tragamonedas", path: "#slots" },
+      { subTitle: "Por qué elegirnos", path: "#kasinoNight" },
+      { subTitle: "Ofertas", path: "#jackpot" },
     ],
   },
   {
-    tittle: "Atención al cliente",
+    title: "Atención al cliente",
     link: [
-      { subTittle: "¿Necesitas ayuda?", path: "#home" },
-      { subTittle: "política de privacidad", path: "#slots" },
-      { subTittle: "Términos de servicios", path: "#kasinoNight" },
+      { subTitle: "¿Necesitas ayuda?", path: "#home" },
+      { subTitle: "política de privacidad", path: "#slots" },
+      { subTitle: "Términos de servicios", path: "#kasinoNight" },
     ],
   },
   {
-    tittle: "Ponerse en contacto",
+    title: "Ponerse en contacto",
     link: [
       {
-        subTittle: "juegosexclusivos@gmail.com",
+        subTitle: "juegosexclusivos@gmail.com",
         path: "mailto:juegosexclusivos@gmail.com",
         icon: <Mail />,
       },
       {
-        subTittle: "(101)342-7873",
+        subTitle: "(101)342-7873",
         path: "tel:100",
         icon: <Telephone />,
       },
@@ -69,11 +69,11 @@ export const slots = [
 ];
 // jackpot services
 export const jackpotServices = [
-  { tittle: "Tecnología HTML5" },
-  { tittle: "Versión PC y móvil" },
-  { tittle: "Control de RTP (controlás qué porcentaje pagar)" },
-  { tittle: "Bonos editables, happy hours, Jackpots, códigos  promocionales." },
-  { tittle: "Aplicación para android y windows de regalo." },
+  { title: "Tecnología HTML5" },
+  { title: "Versión PC y móvil" },
+  { title: "Control de RTP (controlás qué porcentaje pagar)" },
+  { title: "Bonos editables, happy hours, Jackpots, códigos  promocionales." },
+  { title: "Aplicación para android y windows de regalo." },
 ];
 // ezuko card
 export const ezukoCard = [
@@ -91,51 +91,51 @@ export const ellosCard = [
 export const masCards = [
   {
     icon: <GreenBulb />,
-    tittle: "200",
+    title: "200",
     description: "Páginas creadas",
   },
   {
     icon: <StartMan />,
-    tittle: "98%",
+    title: "98%",
     description: "Clientes Satisfechas",
   },
   {
     icon: <GreenValue />,
-    tittle: "200",
+    title: "200",
     description: "Divisas Disponibles",
   },
 ];
 // accordian data
-export const accordianData = [
+export const accordionContent = [
   {
-    tittle:
+    title:
       "¿Cuáles son las ventajas de elegir Juegos Exclusivos para mis plataformas de juegos?",
     description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    tittle: "¿Cómo garantizan la seguridad de las operaciones en sus juegos?",
+    title: "¿Cómo garantizan la seguridad de las operaciones en sus juegos?",
     description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    tittle:
+    title:
       " ¿Cuáles son las opciones de juego disponibles en las versiones Silver, Luxury y Platinum?",
     description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    tittle: "¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?",
+    title: "¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?",
     description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    tittle: "¿Qué métodos de pago aceptan?",
+    title: "¿Qué métodos de pago aceptan?",
     description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
-    tittle: "¿Puedo probar sus juegos antes de comprometerme?",
+    title: "¿Puedo probar sus juegos antes de comprometerme?",
     description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
@@ -150,36 +150,37 @@ export const footerIcon = [
 // nutro Atributo
 export const nutroAtributo = [
   {
-    tittle:
+    title:
       "Disponibles Payku, Pix, Depósitos en Euros, Criptomonedas, Cargas manuales",
   },
-  { tittle: "Control de RTP (controlás qué porcentaje pagar)" },
+  { title: "Control de RTP (controlás qué porcentaje pagar)" },
   {
-    tittle:
+    title:
       "Bonos Editables, Happy Hours, Jackpots, Códigos Promocionales Regalo",
   },
-  { tittle: "Aplicación para Android y Windows de regalo." },
-  { tittle: "Tiempo de creación 2 a 3 semanas" },
+  { title: "Aplicación para Android y Windows de regalo." },
+  { title: "Tiempo de creación 2 a 3 semanas" },
 ];
 // marca card
 export const marcaCard = [
   {
-    icon: <LightGreenBuld />,
+    icon: <LightGreenBulb />,
     arrow: <TopArrow />,
-    tittle: "Inteligencia",
+    title: "Inteligencia",
     description:
       "Comprendemos a la perfección los gustos de las personas y elmundo del gaming.",
   },
   {
     icon: <LightGreenMan />,
     arrow: <BottomArrow />,
-    tittle: "Proactividad",
+    title: "Proactividad",
     description:
       "Somos creadores de cambios que exploran nuevas formas de entretenimiento.",
   },
   {
     icon: <LightGreenFeature />,
-    tittle: "Innovación",
-    description: "Pensamos fuera de la caja para estar siempre un paso adelante.",
+    title: "Innovación",
+    description:
+      "Pensamos fuera de la caja para estar siempre un paso adelante.",
   },
 ];

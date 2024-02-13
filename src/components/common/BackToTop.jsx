@@ -2,23 +2,29 @@
 import { useState, useEffect } from "react";
 import { FaArrowUp } from "react-icons/fa";
 
+// BackToTop component displays a button allowing users to scroll back to the top of the page
 const BackToTop = () => {
   const [isBackToTopVisible, setIsBackToTopVisible] = useState(false);
 
+  // useEffect hook to handle showing or hiding the back to top button based on scroll position
   useEffect(() => {
     const showBackToTop = () => {
       if (window.pageYOffset > 300) {
+        // Show button when scrolled beyond 300 pixels
         setIsBackToTopVisible(true);
       } else {
         setIsBackToTopVisible(false);
       }
     };
 
+    // Add event listener for scroll
     window.addEventListener("scroll", showBackToTop);
 
+    // Cleanup function to remove event listener
     return () => window.removeEventListener("scroll", showBackToTop);
   }, []);
 
+  // Function to scroll back to the top of the page smoothly
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -28,10 +34,11 @@ const BackToTop = () => {
 
   return (
     <>
+      {/* Render button when isBackToTopVisible state is true */}
       {isBackToTopVisible && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-4 right-4 bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] text-white p-4 rounded-full z-50 transition-all duration-300 animate-pulse border-0 hover:scale-95"
+          className="fixed bottom-4 right-4 bg-gradient-to-bl from-lightSky to-lightGreen text-white p-4 rounded-full z-50 transition-all duration-300 animate-pulse border-0 hover:scale-95"
         >
           <FaArrowUp className="w-6 h-6" />
         </button>

@@ -12,8 +12,6 @@ module.exports = {
         inter: ["Inter", "sans-serif"],
       },
       fontSize: {
-        base: "16px",
-        xl: "20px",
         "3xl": "32px",
         "5xl": "48px",
         "7xl": "72px",
@@ -21,7 +19,14 @@ module.exports = {
       colors: {
         darkBlue: "#00141b",
         lightGreen: "#7af57a",
+        darkSilver: "#80898D",
+        darkSky: "#334349",
+        midGreen: "#367E6D",
+        midBlack: "#041C23",
+        silver: "#FFFFFF80",
+        lightWhite: "#FFFFFF1A",
         lightBlack: "#191919",
+        lightSky: "#51C8EF",
       },
     },
   },
