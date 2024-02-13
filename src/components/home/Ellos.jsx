@@ -18,7 +18,7 @@ const Ellos = () => {
           </div>
         ))}
         <div className="flex justify-center mt-9">
-          <p className=" font-Inter font-medium md:text-base text-sm text-white opacity-70 text-center max-w-[900px]">
+          <p className=" font-Inter font-medium md:text-base text-sm text-white text-center max-w-[900px] leading-[160%]">
             Clientes satisfechos que confiaron en Exclusive Games y han
             disfrutado de emocionantes experiencias de juego. Ahora, la próxima
             apuesta está en tus manos.{" "}

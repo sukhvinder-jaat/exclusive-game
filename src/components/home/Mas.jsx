@@ -23,7 +23,7 @@ const Mas = () => {
           <div className=" flex flex-col gap-6">
             {masCards.map((value, index) => (
               <div
-                className="bg-[#041C23] max-w-[374px] flex items-center md:ps-14 ps-3 pe-3 transition-all ease-in-out duration-150 hover:translate-y-[-8px] py-6 gap-[37px] rounded-2xl border-[0.5px] border-[#367E6D] lg:w-screen"
+                className="bg-[#041C23] max-w-[374px] flex items-center md:ps-14 ps-3 pe-3 transition-all ease-in-out duration-300  py-6 gap-[37px] rounded-2xl border-[0.5px] border-[#367E6D] lg:w-screen"
                 key={index}
               >
                 {value.icon}

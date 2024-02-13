@@ -1,6 +1,6 @@
 "use client";
+import Image from "next/image";
 import { useEffect, useState } from "react";
-import { PreloaderIcon } from "./Icons";
 
 const Preloader = () => {
   const [loading, setLoading] = useState(true);
@@ -8,7 +8,7 @@ const Preloader = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 3000); // Adjust the timeout as needed
+    }, 2000); // Adjust the timeout as needed
 
     return () => clearTimeout(timer);
   }, []);
@@ -19,7 +19,13 @@ const Preloader = () => {
         loading ? "block" : "hidden"
       }`}
     >
-      <PreloaderIcon />
+      <Image
+        src="/assets/images/luxury/flip_card_a.webp"
+        width={150}
+        height={150}
+        alt="flip card"
+        className="card_animation "
+      />
     </div>
   );
 };

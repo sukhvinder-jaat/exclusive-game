@@ -8,7 +8,7 @@ const CommonButtonLiner = ({ content }) => {
       >
         {content}
       </button>
-      <span className="absolute start-[-7px] bottom-[-7px] group-hover:start-0 group-hover:bottom-0 transition-all ease-in-out duration-200 group-hover:opacity-0">
+      <span className="absolute start-[-7px] bottom-[-7px] group-hover:start-0 group-hover:bottom-0 transition-all ease-in-out duration-300 group-hover:opacity-0">
         <svg
           width="107"
           height="28"

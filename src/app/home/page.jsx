@@ -42,10 +42,10 @@ const page = () => {
         <div className=" bg-[url('/assets/images/background/hero-image.webp')] bg-no-repeat bg-cover min-h-screen flex flex-col relative">
           <NavBar />
           <Hero />
-          <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-full h-7 rounded-full blur-[78px] bottom-0 start-0 pointer-events-none"></div>
+          <div className=" absolute bg-black blur-[25px] h-14 w-full bottom-[-30px] pointer-events-none"></div>
         </div>
         <Nuestra />
-        <div className=" bg-[url('/assets/images/pocker/white_cut.svg')] bg-cover bg-no-repeat xl:pt-[330px] md:py-[300px] pb-[300px] pt-[150px] md:translate-y-[-350px] translate-y-[-150px] relative z-10">
+        <div className=" bg-[url('/assets/images/pocker/white_cut.svg')] bg-cover bg-no-repeat xl:pt-[330px] md:pb-[300px] lg:pt-[300px] pb-[300px] pt-[150px] md:translate-y-[-350px] translate-y-[-150px] relative z-10">
           <Marca />
           <Slots />
           <div className=" bg-white w-full h-[172px] skew-y-[5deg] relative z-20 2xl:mb-[-385px] md:mb-[-280px] sm:mb-[-190px]"></div>

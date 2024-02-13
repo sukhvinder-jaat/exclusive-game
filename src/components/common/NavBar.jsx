@@ -16,16 +16,16 @@ const NavBar = () => {
 
   return (
     <nav
-      className="bg-[#FFFFFF1A] py-4 flex-grow-0 min-h-[90px] flex items-center"
+      className="bg-[#FFFFFF1A] py-4 flex-grow-0 md:min-h-[90px] flex items-center"
       id="home"
     >
-      <div className="flex items-center justify-between container xl:max-w-[1140px] mx-auto xl:px-0 px-3">
+      <div className="flex items-center justify-between w-full xl:max-w-[1140px] mx-auto xl:px-0 px-3">
         <Image
           src="/assets/images/logo/nav.svg"
           width={210}
           height={43}
           alt="Logo"
-          className="h-8 w-full min-h-[43px] max-w-[210px]"
+          className="h-8 w-full min-h-[43px] md:max-w-[210px] max-w-[150px]"
         />
         <ul className="hidden lg:flex space-x-7">
           {navBarLink.map((link, index) => (

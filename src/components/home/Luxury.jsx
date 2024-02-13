@@ -8,7 +8,7 @@ import { nutroAtributo } from "../common/Helper";
 const Luxury = () => {
   return (
     <div className=" container xl:max-w-[1140px] px-3 mx-auto bg-[url('/assets/images/background/luxury.webp')]  bg-no-repeat bg-cover mb-16">
-      <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 lg:mt-[60px] rounded-md py-11 px-2">
+      <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 lg:mt-[60px] rounded-[16px] py-11 px-2">
         <div className="flex flex-wrap justify-center items-center text-center relative">
           <Image
             src="/assets/images/luxury/tocken.webp"
@@ -42,12 +42,12 @@ const Luxury = () => {
             <h3 className="font-anton text-md text-white font-normal text-3xl">
               Luxury
             </h3>
-            <p className="font-medium text-sm sm:text-base font-Inter text-white opacity-80 mt-3 sm:mt-4 max-w-[345px]">
+            <p className="font-medium text-sm sm:text-base font-Inter text-white opacity-80 mt-3 sm:mt-4 max-w-[390px] leading-[160%]">
               lleva tu experiencia de juego al siguiente nivel. Con todas las
               características de la versión Silver y la potencia adicional de la
               tecnología React .
             </p>
-            <h2 className="font-anton text-3xl md:text-5xl text-white mt-8 mb-4">
+            <h2 className="font-anton text-3xl md:text-5xl text-white mt-8 mb-2">
               $9000
             </h2>
             <div className=" text-center">
@@ -55,7 +55,7 @@ const Luxury = () => {
                 <div className="mt-2" key={index}>
                   <div className="flex items-start gap-2 mt-4 ">
                     <GreenTick />
-                    <p className="font-medium text-sm sm:text-base font-Inter text-white opacity-80 text-center mx-auto max-w-[387px]">
+                    <p className="font-medium text-sm sm:text-base font-Inter leading-[160%] text-white opacity-80 text-center mx-auto max-w-[387px]">
                       {value.tittle}
                     </p>
                   </div>

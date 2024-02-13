@@ -54,7 +54,7 @@ const AccordionComponent = () => {
   return (
     <div className=" relative" id="faq">
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[208px] top-[-30%] start-[-10%] pointer-events-none"></div>
-      <div className="container max-w-[1140px] mx-auto xl:px-0 px-3 md:mb-[150px] mb-20">
+      <div className="container max-w-[1140px] mx-auto xl:px-0 px-3 lg:mb-[150px] mb-20">
         <h2 className="font-anton md:text-5xl text-3xl text-center mb-7 font-normal text-white leading-[112%]">
           Preguntas más frecuentes
         </h2>
@@ -70,7 +70,7 @@ const AccordionComponent = () => {
                 onClick={() => accordionHandler(index)}
                 className="py-4"
               >
-                <h2 className="text-start text-white flex font-anton font-normal leading-[140%] md:leading-[150%] text-base mb-0 pe-2">
+                <h2 className="text-start text-white lg:text-xl flex font-anton font-normal leading-[140%] md:leading-[150%] text-base mb-0 pe-2">
                   {value.tittle}
                 </h2>
               </AccordionHeader>

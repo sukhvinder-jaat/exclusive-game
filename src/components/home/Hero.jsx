@@ -13,7 +13,7 @@ const Hero = () => {
         <p className=" text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton  leading-[112%]">
           Pasión por ganar
         </p>
-        <p className="mt-4 font-inter sm:text-base text-sm font-medium text-center text-white opacity-75 max-w-[730px] md:mb-10 mb-6">
+        <p className="mt-4 font-inter sm:text-base text-sm font-medium text-center text-white opacity-75 max-w-[730px] md:mb-10 mb-6 leading-[160%]">
           En Exclusive Games somos un equipo apasionado de personas dedicados al
           desarrollo de multiplataformas para juegos de azar. A lo largo de
           nuestra vida consumimos todo tipo de juegos hasta que un día decidimos

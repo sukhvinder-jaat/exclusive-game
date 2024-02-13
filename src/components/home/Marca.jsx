@@ -15,17 +15,17 @@ const Marca = () => {
           </div>
           <div className="absolute  lg:flex hidden w-full xl:max-w-[276px] max-w-[150px] end-[19%] top-[35%] ">
             <BottomArrow />
-          </div>
+          </div>  
           {marcaCard.map((value, index) => (
             <div
-              className=" flex flex-col justify-center items-center max-w-[263px]"
+              className=" flex flex-col justify-start items-center max-w-[263px] mx-4"
               key={index}
             >
               {value.icon}
-              <p className=" text-center font-anton font-normal text-xl mt-4">
+              <p className=" text-center font-anton text-darkBlue font-normal text-xl mt-4">
                 {value.tittle}
               </p>
-              <p className=" text-center font-inter font-medium text-base">
+              <p className=" text-center text-[#334349] leading-[160%] mt-2 font-inter font-medium text-base">
                 {value.content}
               </p>
             </div>

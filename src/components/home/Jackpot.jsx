@@ -33,7 +33,7 @@ const Jackpot = () => {
                 {jackpotServices.map((content, index) => (
                   <div className="flex items-center" key={index}>
                     <GreenTick />
-                    <p className="ms-2 font-inter font-medium md:text-base text-sm text-white opacity-70 max-w-[415px]">
+                    <p className="ms-2 font-inter font-medium md:text-base text-sm text-white opacity-70 max-w-[415px] leading-[160%]">
                       {content.tittle}
                     </p>
                   </div>
