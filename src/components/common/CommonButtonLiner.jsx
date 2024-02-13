@@ -1,5 +1,4 @@
 import React from "react";
-
 const CommonButtonLiner = ({ content }) => {
   return (
     <div className=" relative group">

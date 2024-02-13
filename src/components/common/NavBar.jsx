@@ -8,7 +8,7 @@ import { HiOutlineBars3 } from "react-icons/hi2";
 import { RxCross2 } from "react-icons/rx";
 const NavBar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-
+  // sidebar handler
   const sidebarHandler = () => {
     setIsSidebarOpen(!isSidebarOpen);
     document.body.classList.toggle("body_scroll_hidden");
@@ -27,6 +27,7 @@ const NavBar = () => {
           alt="Logo"
           className="h-8 w-full min-h-[43px] md:max-w-[210px] max-w-[150px]"
         />
+        {/* links */}
         <ul className="hidden lg:flex space-x-7">
           {navBarLink.map((link, index) => (
             <li key={index}>
@@ -39,6 +40,7 @@ const NavBar = () => {
             </li>
           ))}
         </ul>
+        {/* common btn import */}
         <div className="hidden lg:flex">
           <CommonButtonWhite
             content="Acceso"
@@ -54,7 +56,6 @@ const NavBar = () => {
           <HiOutlineBars3 />
         </button>
       </div>
-
       <div
         className={`lg:hidden fixed inset-y-0 left-0 w-full bg-[#1A2E38] z-50 transform ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
@@ -66,7 +67,6 @@ const NavBar = () => {
             onClick={sidebarHandler}
           >
             <span className=" relative z-50">
-              {" "}
               <RxCross2 />
             </span>
           </button>
@@ -83,6 +83,7 @@ const NavBar = () => {
               </li>
             ))}
           </ul>
+          {/* common btn */}
           <div className=" relative z-50">
             <CommonButtonWhite content="Acceso" />
           </div>

@@ -10,7 +10,11 @@ const KasinoNingh = () => {
     >
       <div className="flex flex-wrap lg:flex-row flex-col-reverse items-center justify-center relative z-30">
         <div className="lg:w-6/12 md:w-7/12 sm:w-10/12 w-full lg:pe-5 lg:mt-0 mt-8">
-          <div className="flex items-center lg:items-start flex-col">
+          <div
+            className="flex items-center lg:items-start flex-col"
+            data-aos-delay="600"
+            data-aos="fade-up-right"
+          >
             <p className=" font-anton font-normal text-darkBlue xl:text-5xl text-3xl mb-4 leading-[97%]">
               Por qué elegirnos
             </p>
@@ -33,6 +37,8 @@ const KasinoNingh = () => {
             height={439}
             className="w-full"
             alt="kasino_night"
+            data-aos-delay="600"
+            data-aos="fade-up-left"
           />
         </div>
       </div>

@@ -6,7 +6,7 @@ const BackToTop = () => {
   const [isBackToTopVisible, setIsBackToTopVisible] = useState(false);
 
   useEffect(() => {
-    const toggleVisibility = () => {
+    const showBackToTop = () => {
       if (window.pageYOffset > 300) {
         setIsBackToTopVisible(true);
       } else {
@@ -14,9 +14,9 @@ const BackToTop = () => {
       }
     };
 
-    window.addEventListener("scroll", toggleVisibility);
+    window.addEventListener("scroll", showBackToTop);
 
-    return () => window.removeEventListener("scroll", toggleVisibility);
+    return () => window.removeEventListener("scroll", showBackToTop);
   }, []);
 
   const scrollToTop = () => {

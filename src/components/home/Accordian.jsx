@@ -6,7 +6,7 @@ import {
   AccordionBody,
   AccordionHeader,
 } from "@material-tailwind/react";
-
+// plus and minus icons
 function Icon({ id, open }) {
   return (
     <>
@@ -43,19 +43,21 @@ function Icon({ id, open }) {
     </>
   );
 }
-
 const AccordionComponent = () => {
   const [isAccordionOpen, setIsAccordionOpen] = useState(-1);
-
   const accordionHandler = (index) => {
     setIsAccordionOpen(isAccordionOpen === index ? -1 : index);
   };
-
   return (
     <div className=" relative" id="faq">
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[284px] h-[284px] rounded-full blur-[208px] top-[-30%] start-[-10%] pointer-events-none"></div>
       <div className="container max-w-[1140px] mx-auto xl:px-0 px-3 lg:mb-[150px] mb-20">
-        <h2 className="font-anton md:text-5xl text-3xl text-center mb-7 font-normal text-white leading-[112%]">
+        {/* heading */}
+        <h2
+          className="font-anton md:text-5xl text-3xl text-center mb-7 font-normal text-white leading-[112%]"
+          data-aos-delay="600"
+          data-aos="fade-right"
+        >
           Preguntas más frecuentes
         </h2>
         <div className="max-w-[970px] mx-auto">
@@ -63,6 +65,8 @@ const AccordionComponent = () => {
             <Accordion
               key={index}
               className="flex flex-col justify-between border-[0.5px] border-[#80898D] rounded-md px-6 bg-transparent overflow-hidden ease-out transition-all duration-300 mt-8 relative"
+              data-aos-delay="600"
+              data-aos="fade-right"
               open={isAccordionOpen === index}
               icon={<Icon id={index} open={isAccordionOpen} />}
             >

@@ -7,9 +7,14 @@ import { nutroAtributo } from "../common/Helper";
 
 const Luxury = () => {
   return (
-    <div className=" container xl:max-w-[1140px] px-3 mx-auto bg-[url('/assets/images/background/luxury.webp')]  bg-no-repeat bg-cover mb-16">
+    <div
+      className=" container xl:max-w-[1140px] px-3 mx-auto bg-[url('/assets/images/background/luxury.webp')]  bg-no-repeat bg-cover mb-16"
+      data-aos-delay="600"
+      data-aos="fade-up-right"
+    >
       <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 lg:mt-[60px] rounded-[16px] py-11 px-2">
         <div className="flex flex-wrap justify-center items-center text-center relative">
+          {/* token image */}
           <Image
             src="/assets/images/luxury/tocken.webp"
             width={78}
@@ -17,6 +22,7 @@ const Luxury = () => {
             alt="tocken"
             className="absolute top-[10%] lg:start-[20%] md:start-[10%] start-1 sm:block hidden w-full max-w-[78px] animate-pulse"
           />
+          {/* flip card */}
           <Image
             src="/assets/images/luxury/flip_card_a.webp"
             width={150}
@@ -24,6 +30,7 @@ const Luxury = () => {
             alt="flip card"
             className="card_animation absolute top-[15%] end-[10%] sm:block hidden"
           />
+          {/* simple card */}
           <Image
             src="/assets/images/luxury/card_a.webp"
             width={176}
@@ -31,6 +38,7 @@ const Luxury = () => {
             alt="card a"
             className="card_animation absolute md:bottom-[10%] bottom-1 lg:start-[10%] start-[2%] lg:max-w-[176px] max-w-[100px] sm:block hidden"
           />
+          {/* dice */}
           <Image
             src="/assets/images/luxury/dice.webp"
             width={66}

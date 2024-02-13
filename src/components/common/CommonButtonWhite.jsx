@@ -1,11 +1,10 @@
 "use client";
 import React from "react";
-
 const CommonButtonWhite = ({ content }) => {
   return (
     <div className=" relative group">
       <button
-        className={`font-inter font-bold text-base bg-transparent text-white border-white border  rounded-[41px] p-[13px_46px] relative z-10 `}
+        className={`font-inter font-bold text-base bg-transparent text-white text-nowrap border-white border  rounded-[41px] p-[13px_46px] relative z-10 `}
       >
         {content}
       </button>

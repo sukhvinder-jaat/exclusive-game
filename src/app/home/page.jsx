@@ -38,7 +38,7 @@ const page = () => {
     <>
       <BackToTop />
       <Preloader />
-      <div className="bg-darkBlue">
+      <div className="bg-darkBlue overflow-hidden">
         <div className=" bg-[url('/assets/images/background/hero-image.webp')] bg-no-repeat bg-cover min-h-screen flex flex-col relative">
           <NavBar />
           <Hero />

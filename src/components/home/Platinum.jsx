@@ -2,14 +2,16 @@ import React from "react";
 import Image from "next/image";
 import CommonButtonWhite from "../common/CommonButtonWhite";
 import { GreenTick } from "../common/Icons";
-import { nutroAtributo } from "../common/Helper";
-
 const Platinum = () => {
   return (
     <div className=" md:pb-[150px] pb-32 relative">
       <div className=" absolute bg-[linear-gradient(306.99deg,_#51C8EF_-13.72%,_#7AF57A_102.02%)] w-[484px] h-[484px] rounded-full blur-[208px] top-[10%] start-[-30%] translate-y-[-50%] pointer-events-none sm:block hidden"></div>
       <div className=" container xl:max-w-[1140px] px-3 mx-auto">
-        <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 lg:mt-[60px] rounded-[16px]  sm:p-10 p-5 lg:py-[78px] lg:px-12">
+        <div
+          className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 lg:mt-[60px] rounded-[16px]  sm:p-10 p-5 lg:py-[78px] lg:px-12"
+          data-aos-delay="600"
+          data-aos="fade-up-right"
+        >
           <div className="flex flex-wrap lg:flex-row flex-col-reverse justify-between lg:items-center">
             <div className="lg:w-5/12 xl:w-5/12 mt-16 lg:mt-0">
               <h3 className="font-anton text-md text-white font-normal text-3xl">

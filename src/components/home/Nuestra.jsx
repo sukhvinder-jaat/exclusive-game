@@ -21,8 +21,14 @@ const Nuestra = () => {
               className="w-full max-w-[538px] md:mb-[60px] mb-10"
               alt="pocker_with_friends"
               sizes="100vw"
+              data-aos-delay="600"
+              data-aos="fade-right"
             />
-            <div className="flex-col flex md:items-start items-center">
+            <div
+              className="flex-col flex md:items-start items-center"
+              data-aos-delay="600"
+              data-aos="fade-right"
+            >
               <p className=" font-anton font-normal sm:text-5xl text-3xl text-white mb-4 leading-[96%]">
                 Nuestra Visión
               </p>
@@ -45,7 +51,11 @@ const Nuestra = () => {
             </div>
           </div>
           <div className="md:w-6/12 w-full flex md:flex-col flex-col-reverse md:ps-8 md:items-start items-center">
-            <div className="flex-col flex md:items-start items-center">
+            <div
+              className="flex-col flex md:items-start items-center"
+              data-aos-delay="600"
+              data-aos="fade-left"
+            >
               <p className=" font-anton font-normal sm:text-5xl text-3xl text-white mb-4 leading-[96%]">
                 Nuestra Misión
               </p>
@@ -57,6 +67,7 @@ const Nuestra = () => {
               </p>
               <Link
                 href="/"
+                target="_blank"
                 className=" font-inter font-bold text-base text-lightGreen flex items-center group"
               >
                 Aprende más
@@ -67,6 +78,8 @@ const Nuestra = () => {
             </div>
             <Image
               src="/assets/images/pocker/aviator.webp"
+              data-aos-delay="600"
+              data-aos="fade-left"
               width={538}
               height={536}
               className="w-full md:mb-0 mb-10 mt-[60px] max-w-[538px]"
