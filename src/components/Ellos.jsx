@@ -1,6 +1,6 @@
 import React from "react";
-import CommonSlotsCard from "../common/CommonSlotsCard";
-import { ellosCard } from "../common/Helper";
+import SlotsCard from "./common/card/SlotsCard";
+import { ellosCard } from "./common/Helper";
 
 const Ellos = () => {
   return (
@@ -19,7 +19,7 @@ const Ellos = () => {
             data-aos="flip-left"
           >
             {/* common card */}
-            <CommonSlotsCard image={value.image} buttonContent="Jugar" />
+            <SlotsCard image={value.image} buttonTittle="Jugar" />
           </div>
         ))}
         <div className="flex justify-center mt-9">

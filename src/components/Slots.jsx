@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import { slots } from "../common/Helper";
-import CommonSlotsCard from "../common/CommonSlotsCard";
-import CommonButtonLiner from "../common/CommonButtonLiner";
+import { slots } from "./common/Helper";
+import SlotsCard from "./common/card/SlotsCard";
+import LinerButton from "./common/button/LinerButton";
 const Slots = () => {
   return (
     <div className="container max-w-[1140px] mx-auto xl:px-0 px-3" id="slots">
@@ -32,12 +32,12 @@ const Slots = () => {
             className="lg:p-3 p-2 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
             data-aos="fade-right"
           >
-            <CommonSlotsCard image={value.image} buttonContent="Jugar" />
+            <SlotsCard image={value.image} buttonTittle="Jugar" />
           </div>
         ))}
       </div>
       <div className="flex justify-center mt-7 mb-5" data-aos="fade-right">
-        <CommonButtonLiner content="Mostrar más" />
+        <LinerButton tittle="Mostrar más" />
       </div>
     </div>
   );

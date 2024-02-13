@@ -52,7 +52,7 @@ const Footer = () => {
                 {value.link.map((subValue, subIndex) => (
                   <Link href={subValue.path} key={subIndex}>
                     <li className="flex items-center gap-2 opacity-70 text-white font-medium text-base hover:opacity-100 duration-300 ease-in-out transition-all">
-                      {subValue.icon} {subValue.content}
+                      {subValue.icon} {subValue.subTittle}
                     </li>
                   </Link>
                 ))}
@@ -61,7 +61,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <p className="flex items-center justify-center py-5 border-t-[1px] border-[#191919] text-center gap-2 opacity-70 text-white font-medium text-base px-2">
+      <p className="flex items-center justify-center py-5 border-t-[1px] border-lightBlack text-center gap-2 opacity-70 text-white font-medium text-base px-2">
         © Juegos exclusivos - Todos los derechos reservados {currentYear}
       </p>
     </div>

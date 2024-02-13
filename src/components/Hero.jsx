@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import CommonButtonLiner from "../common/CommonButtonLiner";
+import LinerButton from "./common/button/LinerButton";
 const Hero = () => {
   return (
     <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 flex-grow-[1] flex items-center justify-center">
@@ -18,7 +18,7 @@ const Hero = () => {
           crear los propios.
         </p>
         {/* common button */}
-        <CommonButtonLiner content="Empezar" />
+        <LinerButton tittle="Empezar" />
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { navBarLink } from "./Helper";
-import CommonButtonWhite from "./CommonButtonWhite";
+import WhiteButton from "./button/WhiteButton";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import { RxCross2 } from "react-icons/rx";
 const NavBar = () => {
@@ -42,12 +42,7 @@ const NavBar = () => {
         </ul>
         {/* common btn import */}
         <div className="hidden lg:flex">
-          <CommonButtonWhite
-            content="Acceso"
-            borderColor="border-white"
-            textColor="text-white"
-            bgColor="bg-transparent"
-          />
+          <WhiteButton tittle="Acceso" />
         </div>
         <button
           className="block lg:hidden text-white text-3xl"
@@ -57,7 +52,7 @@ const NavBar = () => {
         </button>
       </div>
       <div
-        className={`lg:hidden fixed inset-y-0 left-0 w-full bg-[#1A2E38] z-50 transform ${
+        className={`lg:hidden fixed inset-y-0 left-0 w-full bg-lightBlack z-50 transform ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } transition duration-300 ease-in-out`}
       >
@@ -85,7 +80,7 @@ const NavBar = () => {
           </ul>
           {/* common btn */}
           <div className="relative z-50">
-            <CommonButtonWhite content="Acceso" />
+            <WhiteButton tittle="Acceso" />
           </div>
         </div>
       </div>

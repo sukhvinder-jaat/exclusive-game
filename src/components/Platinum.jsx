@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import CommonButtonWhite from "../common/CommonButtonWhite";
-import { GreenTick } from "../common/Icons";
+import WhiteButton from "./common/button/WhiteButton";
+import { GreenTick } from "./common/Icons";
 const Platinum = () => {
   return (
     <div className="md:pb-[150px] pb-32 relative">
@@ -34,7 +34,7 @@ const Platinum = () => {
                 </div>
               </div>
               <div className="mt-10">
-                <CommonButtonWhite content="Comprar ahora" />
+                <WhiteButton tittle="Comprar ahora" />
               </div>
             </div>
             <div className="lg:w-7/12 sm:px-3">

@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
-const CommonButtonWhite = ({ content }) => {
+const WhiteButton = ({ tittle }) => {
   return (
     <div className="relative group">
       <button
         className={`font-inter font-bold text-base bg-transparent text-white text-nowrap border-white border  rounded-[41px] p-[13px_46px] relative z-10 `}
       >
-        {content}
+        {tittle}
       </button>
       <span className="absolute start-[-7px] bottom-[-7px] group-hover:start-0 group-hover:bottom-0 transition-all ease-in-out duration-300 group-hover:opacity-0">
         <svg
@@ -28,4 +28,4 @@ const CommonButtonWhite = ({ content }) => {
   );
 };
 
-export default CommonButtonWhite;
+export default WhiteButton;

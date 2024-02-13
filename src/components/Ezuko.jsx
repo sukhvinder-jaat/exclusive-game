@@ -1,6 +1,6 @@
 import React from "react";
-import CommonSlotsCard from "../common/CommonSlotsCard";
-import { ezukoCard } from "../common/Helper";
+import SlotsCard from "./common/card/SlotsCard";
+import { ezukoCard } from "./common/Helper";
 
 const Ezuko = () => {
   return (
@@ -20,10 +20,7 @@ const Ezuko = () => {
               className="p-2 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
               data-aos="flip-left"
             >
-              <CommonSlotsCard
-                image={value.image}
-                buttonContent="Reproducir ahora"
-              />
+              <SlotsCard image={value.image} buttonTittle="Reproducir ahora" />
             </div>
           ))}
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
-import { BottomArrow, TopArrow } from "../common/Icons";
-import { marcaCard } from "../common/Helper";
+import { BottomArrow, TopArrow } from "./common/Icons";
+import { marcaCard } from "./common/Helper";
 
 const Marca = () => {
   return (
@@ -37,7 +37,7 @@ const Marca = () => {
                 {value.tittle}
               </p>
               <p className="text-center text-[#334349] leading-[160%] mt-2 font-inter font-medium text-base">
-                {value.content}
+                {value.description}
               </p>
             </div>
           ))}

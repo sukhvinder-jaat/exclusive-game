@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import { nutroAtributo } from "../common/Helper";
-import { GreenTick } from "../common/Icons";
-import CommonButtonWhite from "../common/CommonButtonWhite";
+import { nutroAtributo } from "./common/Helper";
+import { GreenTick } from "./common/Icons";
+import WhiteButton from "./common/button/WhiteButton";
 
 const NutroAtributo = () => {
   return (
@@ -62,7 +62,7 @@ const NutroAtributo = () => {
               ))}
             </div>
             <div className="mt-10">
-              <CommonButtonWhite content="Comprar ahora" />
+              <WhiteButton tittle="Comprar ahora" />
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import CommonButtonLiner from "../common/CommonButtonLiner";
+import LinerButton from "./common/button/LinerButton";
 
 const KasinoNingh = () => {
   return (
@@ -25,7 +25,7 @@ const KasinoNingh = () => {
               ganar ya! Creamos tu plataforma en solo 2 semanas.
             </p>
             <div className="mt-6">
-              <CommonButtonLiner content="Aprende más" />
+              <LinerButton tittle="Aprende más" />
             </div>
           </div>
         </div>

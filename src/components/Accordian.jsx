@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { accordianData } from "../common/Helper";
+import { accordianData } from "./common/Helper";
 import {
   Accordion,
   AccordionBody,
@@ -76,7 +76,7 @@ const AccordionComponent = () => {
               </AccordionHeader>
               <AccordionBody className="pb-4 pt-0">
                 <p className="font-inter font-medium md:text-base text-sm max-w-[740px] text-white opacity-70 leading-[150%]">
-                  {value.content}
+                  {value.description}
                 </p>
               </AccordionBody>
             </Accordion>

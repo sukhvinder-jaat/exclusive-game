@@ -27,31 +27,31 @@ export const footerLinks = [
   {
     tittle: "Menú principal",
     link: [
-      { content: "Hogar", path: "#home" },
-      { content: "Misión", path: "#faq" },
-      { content: "Tragamonedas", path: "#slots" },
-      { content: "Por qué elegirnos", path: "#kasinoNight" },
-      { content: "Ofertas", path: "#jackpot" },
+      { subTittle: "Hogar", path: "#home" },
+      { subTittle: "Misión", path: "#faq" },
+      { subTittle: "Tragamonedas", path: "#slots" },
+      { subTittle: "Por qué elegirnos", path: "#kasinoNight" },
+      { subTittle: "Ofertas", path: "#jackpot" },
     ],
   },
   {
     tittle: "Atención al cliente",
     link: [
-      { content: "¿Necesitas ayuda?", path: "#home" },
-      { content: "política de privacidad", path: "#slots" },
-      { content: "Términos de servicios", path: "#kasinoNight" },
+      { subTittle: "¿Necesitas ayuda?", path: "#home" },
+      { subTittle: "política de privacidad", path: "#slots" },
+      { subTittle: "Términos de servicios", path: "#kasinoNight" },
     ],
   },
   {
     tittle: "Ponerse en contacto",
     link: [
       {
-        content: "juegosexclusivos@gmail.com",
+        subTittle: "juegosexclusivos@gmail.com",
         path: "mailto:juegosexclusivos@gmail.com",
         icon: <Mail />,
       },
       {
-        content: "(101)342-7873",
+        subTittle: "(101)342-7873",
         path: "tel:100",
         icon: <Telephone />,
       },
@@ -92,17 +92,17 @@ export const masCards = [
   {
     icon: <GreenBulb />,
     tittle: "200",
-    content: "Páginas creadas",
+    description: "Páginas creadas",
   },
   {
     icon: <StartMan />,
     tittle: "98%",
-    content: "Clientes Satisfechas",
+    description: "Clientes Satisfechas",
   },
   {
     icon: <GreenValue />,
     tittle: "200",
-    content: "Divisas Disponibles",
+    description: "Divisas Disponibles",
   },
 ];
 // accordian data
@@ -110,33 +110,33 @@ export const accordianData = [
   {
     tittle:
       "¿Cuáles son las ventajas de elegir Juegos Exclusivos para mis plataformas de juegos?",
-    content:
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     tittle: "¿Cómo garantizan la seguridad de las operaciones en sus juegos?",
-    content:
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     tittle:
       " ¿Cuáles son las opciones de juego disponibles en las versiones Silver, Luxury y Platinum?",
-    content:
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     tittle: "¿Cuánto tiempo lleva crear una plataforma con Juegos Exclusivos?",
-    content:
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     tittle: "¿Qué métodos de pago aceptan?",
-    content:
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
   {
     tittle: "¿Puedo probar sus juegos antes de comprometerme?",
-    content:
+    description:
       "En Exclusive Games, ofrecemos experiencias únicas y personalizadas, respaldadas por más de 15 años de dedicación al desarrollo de multiplataformas para juegos de azar.",
   },
 ];
@@ -167,19 +167,19 @@ export const marcaCard = [
     icon: <LightGreenBuld />,
     arrow: <TopArrow />,
     tittle: "Inteligencia",
-    content:
+    description:
       "Comprendemos a la perfección los gustos de las personas y elmundo del gaming.",
   },
   {
     icon: <LightGreenMan />,
     arrow: <BottomArrow />,
     tittle: "Proactividad",
-    content:
+    description:
       "Somos creadores de cambios que exploran nuevas formas de entretenimiento.",
   },
   {
     icon: <LightGreenFeature />,
     tittle: "Innovación",
-    content: "Pensamos fuera de la caja para estar siempre un paso adelante.",
+    description: "Pensamos fuera de la caja para estar siempre un paso adelante.",
   },
 ];

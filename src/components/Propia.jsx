@@ -1,5 +1,5 @@
 import React from "react";
-import CommonButtonLiner from "../common/CommonButtonLiner";
+import LinerButton from "./common/button/LinerButton";
 
 const Propia = () => {
   return (
@@ -11,7 +11,7 @@ const Propia = () => {
         <p className="text-white font-normal md:text-3xl text-xl font-anton md:mb-10 mb-5 text-center">
           Lanza tu propia plataforma en sólo 2 semanas
         </p>
-        <CommonButtonLiner content="Leer más" />
+        <LinerButton tittle="Leer más" />
       </div>
     </div>
   );

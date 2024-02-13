@@ -1,9 +1,9 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import CommonButtonLiner from "../common/CommonButtonLiner";
-import { GreenTick } from "../common/Icons";
-import { nutroAtributo } from "../common/Helper";
+import LinerButton from "./common/button/LinerButton";
+import { GreenTick } from "./common/Icons";
+import { nutroAtributo } from "./common/Helper";
 
 const Luxury = () => {
   return (
@@ -70,7 +70,7 @@ const Luxury = () => {
               ))}
             </div>
             <div className="flex items-center justify-center mt-9">
-              <CommonButtonLiner content="Comprar ahora" />
+              <LinerButton tittle="Comprar ahora" />
             </div>
           </div>
         </div>

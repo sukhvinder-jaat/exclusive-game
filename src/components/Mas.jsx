@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import { GreenBulb } from "../common/Icons";
-import { masCards } from "../common/Helper";
+import { GreenBulb } from "./common/Icons";
+import { masCards } from "./common/Helper";
 
 const Mas = () => {
   return (
@@ -37,7 +37,7 @@ const Mas = () => {
                     {value.tittle}
                   </p>
                   <p className="font-medium text-base text-white">
-                    {value.content}
+                    {value.description}
                   </p>
                 </div>
               </div>
