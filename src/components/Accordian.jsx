@@ -55,7 +55,7 @@ const AccordionComponent = () => {
               {/* Accordion header */}
               <AccordionHeader
                 onClick={() => accordionHandler(index)}
-                className="py-4"
+                className="pt-4 pb-2"
               >
                 {/* Accordion title */}
                 <h2 className="text-start text-white lg:text-xl flex font-anton font-normal leading-[140%] md:leading-[150%] text-base mb-0 pe-2">

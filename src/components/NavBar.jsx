@@ -59,7 +59,7 @@ const NavBar = () => {
       </div>
       {/* Sidebar for mobile */}
       <div
-        className={`lg:hidden fixed inset-y-0 left-0 w-full bg-lightBlack z-50 transform ${
+        className={`lg:hidden fixed inset-y-0 left-0 w-full bg-black z-50 transform ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
         } transition duration-300 ease-in-out`}
       >

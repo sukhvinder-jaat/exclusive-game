@@ -59,7 +59,8 @@ const page = () => {
           <KasinoNingh />
           <div className="bg-white w-full h-[172px] skew-y-[5deg] relative z-20 mb-[-270px]"></div>
         </div>
-        <div className="bg-darkBlue pt-[350px] translate-y-[-100px]">
+        <div className="bg-darkBlue pt-[350px] translate-y-[-100px] relative">
+          <div className="absolute bg-gradient-to-bl from-lightSky to-lightGreen w-[284px] h-[284px] rounded-full blur-[208px] top-[10%] end-[-10%] pointer-events-none"></div>
           <Mas />
           <NutroAtributo />
           <Luxury />

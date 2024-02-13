@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import { GreenBulb } from "./common/Icons"; // Importing GreenBulb icon
 import { masCards } from "./common/Helper"; // Importing data for additional reasons
 
 // Mas component
