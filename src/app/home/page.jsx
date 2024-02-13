@@ -50,7 +50,7 @@ const page = () => {
           <Slots />
           <div className="bg-white w-full sm:h-[172px] h-[122px] skew-y-[5deg] relative z-20 2xl:mb-[-385px] md:mb-[-280px] sm:mb-[-190px]"></div>
         </div>
-        <div className="bg-[url('/assets/images/background/jackpot.png')] bg-no-repeat bg-cover overflow-hidden 2xl:pt-[350px] sm:pt-[250px] pt-[150px] pb-[350px] translate-y-[-480px]">
+        <div className="bg-[url('/assets/images/background/jackpot.webp')] bg-no-repeat bg-cover overflow-hidden 2xl:pt-[350px] sm:pt-[250px] pt-[150px] pb-[350px] translate-y-[-480px]">
           <Jackpot />
           <Lanza />
           <Ezuko />

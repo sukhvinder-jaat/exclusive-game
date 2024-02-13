@@ -60,12 +60,12 @@ export const footerLinks = [
 ];
 // slots card
 export const slots = [
-  { image: "/assets/images/slots/card_image_1.webp" },
-  { image: "/assets/images/slots/card_image_2.webp" },
-  { image: "/assets/images/slots/card_image_3.webp" },
-  { image: "/assets/images/slots/card_image_4.webp" },
-  { image: "/assets/images/slots/card_image_5.webp" },
-  { image: "/assets/images/slots/card_image_6.webp" },
+  { image: "/assets/images/slots/jet_x.webp" },
+  { image: "/assets/images/slots/joker.webp" },
+  { image: "/assets/images/slots/dummy.webp" },
+  { image: "/assets/images/slots/lucky.webp" },
+  { image: "/assets/images/slots/hello.webp" },
+  { image: "/assets/images/slots/r_p_g.webp" },
 ];
 // jackpot services
 export const jackpotServices = [
@@ -77,15 +77,15 @@ export const jackpotServices = [
 ];
 // ezuko card
 export const ezukoCard = [
-  { image: "/assets/images/ezuko/card_image_1.webp" },
-  { image: "/assets/images/ezuko/card_image_2.webp" },
-  { image: "/assets/images/ezuko/card_image_3.webp" },
+  { image: "/assets/images/ezuko/ezuko.webp" },
+  { image: "/assets/images/ezuko/roullet.webp" },
+  { image: "/assets/images/ezuko/live_betting.webp" },
 ];
 // ellos card
 export const ellosCard = [
-  { image: "/assets/images/ellos/card_image_1.png" },
-  { image: "/assets/images/ellos/card_image_2.png" },
-  { image: "/assets/images/ellos/card_image_3.png" },
+  { image: "/assets/images/ellos/giros.webp" },
+  { image: "/assets/images/ellos/ultra.webp" },
+  { image: "/assets/images/ellos/hour.webp" },
 ];
 // mas card data
 export const masCards = [
@@ -105,7 +105,7 @@ export const masCards = [
     description: "Divisas Disponibles",
   },
 ];
-// accordian data
+// accordion data
 export const accordionContent = [
   {
     title:

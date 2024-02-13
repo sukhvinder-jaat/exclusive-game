@@ -43,6 +43,7 @@ const Footer = () => {
                   href={value.link}
                   className="hover:scale-90 transition-all ease-linear duration-300"
                   key={index}
+                  target="blank"
                 >
                   {value.icon}
                 </Link>
