@@ -11,12 +11,17 @@ const Slots = () => {
       {/* Title */}
       <h2
         className="font-anton text-5xl text-center font-normal text-darkBlue leading-[112%]"
+        data-aos-offset="100"
         data-aos="fade-down"
       >
         Slots
       </h2>
       {/* Description */}
-      <div className="flex justify-center mt-4" data-aos="fade-down">
+      <div
+        className="flex justify-center mt-4"
+        data-aos-offset="100"
+        data-aos="fade-down"
+      >
         <p className="font-Inter font-medium md:text-base text-sm text-darkSky text-center max-w-[900px] leading-[160%]">
           En Exclusive Games, ofrecemos una selección de más de 600 juegos de
           los principales desarrolladores, como Aristocrat, Amatic, EGT,
@@ -32,6 +37,7 @@ const Slots = () => {
           <div
             key={index}
             className="lg:p-3 p-2 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
+            data-aos-offset="100"
             data-aos="fade-right"
           >
             {/* Rendering each slot card */}
@@ -40,7 +46,11 @@ const Slots = () => {
         ))}
       </div>
       {/* Button to show more */}
-      <div className="flex justify-center mt-7 mb-5" data-aos="fade-right">
+      <div
+        className="flex justify-center mt-7 mb-5"
+        data-aos-offset="100"
+        data-aos="fade-right"
+      >
         <LinerButton title="Mostrar más" />
       </div>
     </div>

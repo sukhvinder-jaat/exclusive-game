@@ -11,6 +11,7 @@ const Marca = () => {
         {/* Title */}
         <h2
           className="font-anton text-3xl md:text-5xl text-darkBlue text-center md:mb-14 mb-10"
+          data-aos-offset="100"
           data-aos="fade-down-right"
         >
           Nuestros Atributos de Marca
@@ -20,6 +21,7 @@ const Marca = () => {
           {/* Top arrow */}
           <div
             className="absolute  lg:flex hidden w-full xl:max-w-[276px] max-w-[150px] xl:start-[19%] start-[25%] top-0"
+            data-aos-offset="100"
             data-aos="fade-down-right"
           >
             <TopArrow />
@@ -27,6 +29,7 @@ const Marca = () => {
           {/* Bottom arrow */}
           <div
             className="absolute lg:flex hidden w-full xl:max-w-[276px] max-w-[150px] xl:end-[19%] end-[25%] top-[35%]"
+            data-aos-offset="100"
             data-aos="fade-down-right"
           >
             <BottomArrow />
@@ -35,6 +38,7 @@ const Marca = () => {
           {marcaCard.map((value, index) => (
             <div
               className="flex flex-col justify-start items-center max-w-[263px] mx-4"
+              data-aos-offset="100"
               data-aos="fade-down-right"
               key={index}
             >

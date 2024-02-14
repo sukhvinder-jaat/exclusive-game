@@ -9,6 +9,7 @@ const Luxury = () => {
   return (
     <div
       className="container xl:max-w-[1140px] px-3 mx-auto bg-luxury bg-no-repeat bg-cover mb-16"
+      data-aos-offset="100"
       data-aos="fade-up-right"
     >
       {/* Container for the content */}

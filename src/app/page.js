@@ -34,7 +34,7 @@ export default function Home() {
     const timer = setTimeout(() => {
       setLoading(false);
     }, 3000); // Adjust the timeout as needed
-
+    
     return () => clearTimeout(timer);
   }, []);
 

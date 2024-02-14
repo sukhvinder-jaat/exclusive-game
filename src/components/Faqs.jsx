@@ -38,6 +38,7 @@ const Faqs = () => {
         {/* Heading */}
         <h2
           className="font-anton md:text-5xl text-3xl text-center mb-7 font-normal text-white leading-[112%]"
+          data-aos-offset="100"
           data-aos="fade-right"
         >
           Preguntas más frecuentes
@@ -48,6 +49,7 @@ const Faqs = () => {
             <Accordion
               key={index}
               className="flex flex-col justify-between border-[0.5px] border-darkSilver rounded-md px-6 bg-transparent overflow-hidden ease-out transition-all duration-300 mt-8 relative"
+              data-aos-offset="100"
               data-aos="fade-right"
               open={isAccordionOpen === index}
               icon={<Icon id={index} open={isAccordionOpen} />}

@@ -24,12 +24,14 @@ const Jackpot = () => {
               height={439}
               className="w-full"
               alt="jackpot"
+              data-aos-offset="100"
               data-aos="fade-right"
             />
           </div>
           {/* Text section */}
           <div
             className="lg:w-6/12 md:w-7/12 sm:w-10/12 w-full lg:ps-5 lg:mt-0 mt-8"
+            data-aos-offset="100"
             data-aos="fade-right"
           >
             <div className="mb-0">

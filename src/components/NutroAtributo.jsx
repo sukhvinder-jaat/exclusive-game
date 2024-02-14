@@ -11,6 +11,7 @@ const NutroAtributo = () => {
       {/* Title */}
       <h2
         className="font-anton text-3xl md:text-5xl text-white text-center font-normal"
+        data-aos-offset="100"
         data-aos="fade-up"
       >
         Nuestras ofertas
@@ -18,6 +19,7 @@ const NutroAtributo = () => {
       {/* Description */}
       <p
         className="mt-3 sm:mt-4 text-center font-medium text-sm sm:text-base font-Inter text-white max-w-[904px] mx-auto"
+        data-aos-offset="100"
         data-aos="fade-up"
       >
         Te ofrecemos las mejores experiencias de juegos para tus clientes.
@@ -25,6 +27,7 @@ const NutroAtributo = () => {
       {/* Main content */}
       <div
         className="border border-[rgba(255,_255,_255,_0.5)] mt-7 lg:mt-[60px] rounded-[16px] sm:p-10 p-5 lg:p-[57px_40px_30px_40px]"
+        data-aos-offset="100"
         data-aos="fade-up-right"
       >
         <div className="flex flex-wrap justify-between items-center">

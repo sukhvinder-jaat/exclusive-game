@@ -15,6 +15,7 @@ const KasinoNingh = () => {
         <div className="lg:w-6/12 md:w-7/12 sm:w-10/12 w-full lg:pe-5 lg:mt-0 mt-8">
           <div
             className="flex items-center lg:items-start flex-col"
+            data-aos-offset="100"
             data-aos="fade-up-right"
           >
             {/* Title */}
@@ -43,6 +44,7 @@ const KasinoNingh = () => {
             height={439}
             className="w-full"
             alt="kasino_night"
+            data-aos-offset="100"
             data-aos="fade-up-left"
           />
         </div>

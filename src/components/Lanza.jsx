@@ -7,6 +7,7 @@ const Lanza = () => {
       {/* Container for the content */}
       <div
         className="xl:py-24 md:py-20 py-10 flex items-center justify-center border-[0.5px] border-white rounded-2xl xl:mb-[150px] mb-20 bg-platForm bg-no-repeat backdrop-blur-3xl bg-black bg-[97%_97%]"
+        data-aos-offset="100"
         data-aos="fade-down-right"
       >
         {/* Content */}

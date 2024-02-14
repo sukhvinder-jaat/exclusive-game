@@ -8,6 +8,7 @@ const Propia = () => {
       {/* Background with image */}
       <div
         className="bg-propia bg-no-repeat bg-cover flex flex-col items-center justify-center rounded-2xl border-[0.5px] border-silver xl:py-[104px] md:py-20 py-10 !px-2"
+        data-aos-offset="100"
         data-aos="flip-up"
       >
         {/* Title */}

@@ -13,6 +13,7 @@ const Ezuko = () => {
         {/* Title */}
         <p
           className="relative z-10 font-anton font-normal text-white xl:text-5xl text-3xl text-center leading-[118%] xl:mb-[60px] mb-10"
+          data-aos-offset="100"
           data-aos="fade-down-right"
         >
           Juegos en vivo
@@ -24,6 +25,7 @@ const Ezuko = () => {
             <div
               key={index}
               className="p-2 md:w-4/12 sm:w-6/12 duration-300 hover:-translate-y-1"
+              data-aos-offset="100"
               data-aos="flip-left"
             >
               {/* SlotsCard component */}

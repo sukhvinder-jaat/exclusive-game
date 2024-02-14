@@ -12,6 +12,7 @@ const Platinum = () => {
       <div className="container xl:max-w-[1140px] px-3 mx-auto">
         <div
           className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 lg:mt-[60px] rounded-[16px] sm:p-10 p-5 lg:py-[78px] lg:px-12"
+          data-aos-offset="100"
           data-aos="fade-up-right"
         >
           <div className="flex flex-wrap lg:flex-row flex-col-reverse justify-between lg:items-center">
