@@ -8,7 +8,7 @@ const WhiteButton = ({ title }) => {
     <div className="relative group">
       {/* Button with dynamic class based on props */}
       <button
-        className={`font-inter font-bold text-base bg-transparent text-white text-nowrap border-white border  rounded-[41px] p-[13px_46px] relative z-10 `}
+        className={`font-inter font-bold text-base bg-transparent text-white text-nowrap border-white border rounded-[41px] p-[13px_46px] relative z-10`}
         aria-label="title"
       >
         {title}

@@ -7,7 +7,7 @@ const LinerButton = ({ title }) => {
     <div className="relative group">
       {/* Button with dynamic class based on props */}
       <button
-        className={`font-inter font-bold text-base bg-gradient-to-bl from-lightSky to-lightGreen text-darkBlue  rounded-[41px] p-[13px_46px] relative z-10 `}
+        className={`font-inter font-bold text-base bg-gradient-to-bl from-lightSky to-lightGreen text-darkBlue rounded-[41px] p-[13px_46px] relative z-10`}
         aria-label="title"
       >
         {title}

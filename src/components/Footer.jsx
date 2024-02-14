@@ -26,7 +26,7 @@ const Footer = () => {
                 src="/assets/images/logo/nav.svg"
                 width={210}
                 height={43}
-                className="w-full  max-w-[210px]"
+                className="w-full max-w-[210px]"
                 alt="logo"
               />
             </Link>

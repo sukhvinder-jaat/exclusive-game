@@ -7,11 +7,11 @@ const Hero = () => {
     <div className="container xl:max-w-[1140px] mx-auto xl:px-0 px-3 flex-grow-[1] flex items-center justify-center">
       <div className="flex flex-col items-center">
         {/* Title */}
-        <p className="text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton  leading-[112%]">
+        <p className="text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton leading-[112%]">
           Exclusive Games.
         </p>
         {/* Subtitle */}
-        <p className="text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton  leading-[112%]">
+        <p className="text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton leading-[112%]">
           Pasión por ganar
         </p>
         {/* Description */}
