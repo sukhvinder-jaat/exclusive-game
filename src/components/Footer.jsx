@@ -22,6 +22,7 @@ const Footer = () => {
             {/* Logo */}
             <Link href="#" className="mb-4">
               <Image
+                loading="lazy"
                 src="/assets/images/logo/nav.svg"
                 width={210}
                 height={43}

@@ -46,6 +46,7 @@ const KasinoNingh = () => {
             alt="kasino_night"
             data-aos-offset="100"
             data-aos="fade-up-left"
+            loading="lazy"
           />
         </div>
       </div>

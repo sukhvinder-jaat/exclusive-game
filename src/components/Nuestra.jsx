@@ -23,6 +23,7 @@ const Nuestra = () => {
               alt="pocker_with_friends"
               data-aos-offset="100"
               data-aos="fade-right"
+              loading="lazy"
             />
             <div
               className="flex-col flex md:items-start items-center"
@@ -93,6 +94,7 @@ const Nuestra = () => {
               className="w-full md:mb-0 mb-10 mt-[60px] max-w-[538px]"
               alt="aviator"
               sizes="100vw"
+              loading="lazy"
             />
           </div>
         </div>

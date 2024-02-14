@@ -26,6 +26,7 @@ const Jackpot = () => {
               alt="jackpot"
               data-aos-offset="100"
               data-aos="fade-right"
+              loading="lazy"
             />
           </div>
           {/* Text section */}

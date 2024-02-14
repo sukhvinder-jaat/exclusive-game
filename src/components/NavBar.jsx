@@ -30,6 +30,7 @@ const NavBar = () => {
           width={210}
           height={43}
           alt="Logo"
+          loading="lazy"
           className="h-8 w-full min-h-[43px] md:max-w-[210px] max-w-[150px]"
         />
         {/* Desktop links */}

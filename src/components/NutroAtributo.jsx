@@ -44,6 +44,7 @@ const NutroAtributo = () => {
                 src="/assets/images/nutro_atributo/silver.webp"
                 alt="Nuestras atributo"
                 className="w-full relative z-10"
+             
               />
               {/* Overlay */}
               <div className="absolute bg-black h-8 max-w-[500px] w-full blur-sm opacity-20 bottom-[-15%] rounded-[50%]"></div>

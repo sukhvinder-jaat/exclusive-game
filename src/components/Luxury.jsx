@@ -20,6 +20,7 @@ const Luxury = () => {
             src="/assets/images/luxury/tocken.webp"
             width={78}
             height={78}
+            loading="lazy"
             alt="Token"
             className="absolute top-[10%] lg:start-[20%] md:start-[10%] start-1 sm:block hidden w-full max-w-[78px] animate-pulse"
           />
@@ -27,6 +28,7 @@ const Luxury = () => {
           <Image
             src="/assets/images/luxury/flip_card_a.webp"
             width={150}
+            loading="lazy"
             height={150}
             alt="Flip card"
             className="card_animation absolute top-[15%] end-[10%] sm:block hidden"
@@ -35,6 +37,7 @@ const Luxury = () => {
           <Image
             src="/assets/images/luxury/card_a.webp"
             width={176}
+            loading="lazy"
             height={186}
             alt="Simple card"
             className="card_animation absolute md:bottom-[10%] bottom-1 lg:start-[10%] start-[2%] lg:max-w-[176px] max-w-[100px] sm:block hidden"
@@ -43,6 +46,7 @@ const Luxury = () => {
           <Image
             src="/assets/images/luxury/dice.webp"
             width={66}
+            loading="lazy"
             height={69}
             alt="Dice"
             className="absolute bottom-[10%] lg:end-[20%] end-[10%] sm:block hidden animate-bounce"

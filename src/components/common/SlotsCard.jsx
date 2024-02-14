@@ -23,6 +23,7 @@ const SlotsCard = (props) => {
         src={image}
         alt="slots card"
         sizes="100vw"
+        loading="lazy"
       />
     </div>
   );
