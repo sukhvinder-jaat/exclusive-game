@@ -32,7 +32,7 @@ const Nuestra = () => {
                 Nuestra Visión
               </p>
               {/* Vision Description */}
-              <p className="text-white opacity-70 font-inter font-medium sm:text-base text-sm max-w-[445px] mb-6 leading-[160%]">
+              <p className="text-white opacity-70 font-inter font-medium sm:text-base text-sm max-w-[445px] mb-6 leading-[160%] md:text-start text-center">
                 Nuestra visión es ser líderes indiscutibles en la industria de
                 los juegos de azar y llevar nuestra pasión por el
                 entretenimiento más allá de las fronteras. Imagina un mundo
@@ -62,7 +62,7 @@ const Nuestra = () => {
                 Nuestra Misión
               </p>
               {/* Mission Description */}
-              <p className="text-white opacity-70 font-inter font-medium sm:text-base text-sm max-w-[445px] mb-6 leading-[160%]">
+              <p className="text-white opacity-70 font-inter font-medium sm:text-base text-sm max-w-[445px] mb-6 leading-[160%] md:text-start text-center">
                 Nuestra misión es simple pero poderosa: proporcionarte la más
                 amplia gama de soluciones de entretenimiento de alta calidad y
                 rentabilidad. Estamos comprometidos a elevar tus expectativas y
