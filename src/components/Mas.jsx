@@ -9,12 +9,13 @@ const Mas = () => {
       <div className="flex flex-wrap items-center justify-center">
         {/* Image */}
         <div className="xl:w-6/12 lg:w-7/12 sm:w-8/12 w-full lg:pe-5">
-          <Image loading="lazy"
-            src="/assets/images/mas/image_777.webp"
+          <Image
+            loading="lazy"
+            src="/assets/images/mas/mas.webp"
             width={558}
             height={439}
             className="w-full "
-            alt="image_777"
+            alt="mas"
             data-aos-offset="100"
             data-aos="fade-up-right"
           />

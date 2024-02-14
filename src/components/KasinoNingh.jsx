@@ -23,7 +23,7 @@ const KasinoNingh = () => {
               Por qué elegirnos
             </p>
             {/* Description */}
-            <p className="font-inter font-medium md:text-base text-sm text-darkBlue max-w-[515px] lg:text-start text-center leading-[160%]">
+            <p className="font-inter font-medium md:text-base text-sm text-darkSky max-w-[515px] lg:text-start text-center leading-[160%]">
               Con Exclusive Games tenés Exclusivos beneficios. Te reintegramos
               todo lo invertido en fichas en la moneda que elijas. En Exclusive
               Games siempre sumamos nuevos juegos. Juegos crash, los juegos

@@ -11,7 +11,7 @@ const Lanza = () => {
         data-aos="fade-down-right"
       >
         {/* Content */}
-        <p className="font-anton font-normal text-white xl:text-5xl sm:text-3xl text-2xl text-center leading-[118%] max-w-[520px] px-2">
+        <p className="font-anton font-normal text-white xl:text-5xl sm:text-3xl text-2xl text-center leading-[118%] max-w-[520px] md:px-0 px-2">
           Lanza tu propia plataforma en sólo 2 semanas
         </p>
       </div>
