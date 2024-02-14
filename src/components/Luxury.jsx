@@ -13,7 +13,7 @@ const Luxury = () => {
       data-aos="fade-up-right"
     >
       {/* Container for the content */}
-      <div className="border border-[rgba(255,_255,_255,_0.5)] Nuestras-ofertas-box mt-7 lg:mt-[60px] rounded-[16px] py-11 px-2">
+      <div className="border border-[rgba(255,_255,_255,_0.5)]  mt-7 lg:mt-[60px] rounded-[16px] py-11 px-2">
         <div className="flex flex-wrap justify-center items-center text-center relative">
           {/* Token image */}
           <Image
