@@ -53,6 +53,7 @@ const NavBar = () => {
         <button
           className="block lg:hidden text-white text-3xl"
           onClick={sidebarHandler}
+          aria-label="sidebar handler"
         >
           <HiOutlineBars3 />
         </button>
@@ -66,8 +67,9 @@ const NavBar = () => {
         <div className="p-4 flex flex-col justify-center items-center h-full relative z-50">
           {/* Close button for sidebar */}
           <button
-            className="text-white text-3xl absolute top-5 end-5"
+            className="text-white text-3xl absolute top-10 end-5"
             onClick={sidebarHandler}
+            aria-label="sidebar handler"
           >
             <span className="relative z-50">
               <RxCross2 />

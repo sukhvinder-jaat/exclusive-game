@@ -35,18 +35,21 @@ const Footer = () => {
               dedicadas al desarrollo de multiplataformas para juegos de azar
             </p>
             {/* Footer icons */}
-            <div className="flex gap-3 items-center">
+            <ul className="flex gap-3 items-center">
               {footerIcon.map((value, index) => (
-                <Link
-                  href={value.link}
-                  className="hover:scale-90 transition-all ease-linear duration-300"
-                  key={index}
-                  target="blank"
-                >
-                  {value.icon}
-                </Link>
+                <li>
+                  <Link
+                    href={value.link}
+                    className="hover:scale-90 transition-all ease-linear duration-300"
+                    key={index}
+                    target="_blank"
+                    aria-label={value.link}
+                  >
+                    {value.icon}
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
           {/* Footer links */}
           <div className="xl:w-8/12 w-full flex flex-wrap xl:mt-0 mt-5">
@@ -59,11 +62,14 @@ const Footer = () => {
                   {value.title}
                 </li>
                 {value.link.map((subValue, subIndex) => (
-                  <Link href={subValue.path} key={subIndex}>
-                    <li className="flex items-center gap-2 opacity-70 text-white font-medium text-base hover:opacity-100 duration-300 ease-in-out transition-all">
+                  <li key={subIndex}>
+                    <Link
+                      href={subValue.path}
+                      className="flex items-center gap-2 opacity-70 text-white font-medium text-base hover:opacity-100 duration-300 ease-in-out transition-all"
+                    >
                       {subValue.icon} {subValue.subTitle}
-                    </li>
-                  </Link>
+                    </Link>
+                  </li>
                 ))}
               </ul>
             ))}
