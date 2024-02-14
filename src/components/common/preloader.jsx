@@ -33,12 +33,10 @@ const Preloader = () => {
           alt="flip card"
           className="card_animation"
         />
-        <div>
-          {/* Loading text */}
-          <p className="text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton leading-[112%]">
-            Exclusive Games.
-          </p>
-        </div>
+        {/* Loading text */}
+        <p className="text-white font-normal lg:text-7xl sm:text-5xl text-3xl uppercase text-center font-anton leading-[112%]">
+          Exclusive Games.
+        </p>
       </div>
     </div>
   );

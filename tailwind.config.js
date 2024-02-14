@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/assets/images/background/hero_image.webp')",
+        hero: "url('/assets/images/background/hero.webp')",
         whiteCut: "url('/assets/images/pocker/white_cut.svg')",
         jackpot: "url('/assets/images/background/jackpot.webp')",
         propia: "url('/assets/images/background/lanza.webp')",

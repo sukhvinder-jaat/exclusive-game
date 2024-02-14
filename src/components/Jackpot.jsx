@@ -32,7 +32,7 @@ const Jackpot = () => {
             className="lg:w-6/12 md:w-7/12 sm:w-10/12 w-full lg:ps-5 lg:mt-0 mt-8"
             data-aos="fade-right"
           >
-            <div>
+            <div className="mb-0">
               {/* Title */}
               <p className="font-anton font-normal text-white xl:text-5xl text-3xl mb-4 leading-[97%]">
                 Potenciando sus elecciones

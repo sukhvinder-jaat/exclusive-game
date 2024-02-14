@@ -20,8 +20,8 @@ function Icon({ id, open }) {
   );
 }
 
-// AccordionComponent
-const AccordionComponent = () => {
+// Faqs
+const Faqs = () => {
   const [isAccordionOpen, setIsAccordionOpen] = useState(-1); // State to track open accordion index
 
   // Function to handle accordion click
@@ -79,4 +79,4 @@ const AccordionComponent = () => {
   );
 };
 
-export default AccordionComponent; // Export AccordionComponent
+export default Faqs; // Export Faqs
