@@ -34,7 +34,7 @@ export default function Home() {
     const timer = setTimeout(() => {
       setLoading(false);
     }, 3000); // Adjust the timeout as needed
-    
+
     return () => clearTimeout(timer);
   }, []);
 
@@ -55,7 +55,7 @@ export default function Home() {
         <div className="bg-whiteCut bg-cover bg-no-repeat xl:pt-[330px] md:pb-[300px] lg:pt-[300px] pb-[300px] pt-[150px] md:translate-y-[-350px] translate-y-[-150px] relative z-10">
           <Marca />
           <Slots />
-          <div className="bg-white w-full sm:h-[172px] h-[130px] skew-y-[5deg] relative z-20 2xl:mb-[-385px] md:mb-[-280px] sm:mb-[-190px]"></div>
+          <div className="bg-white w-full sm:h-[172px] h-[133px] skew-y-[5deg] relative z-20 2xl:mb-[-385px] md:mb-[-280px] sm:mb-[-190px]"></div>
         </div>
         <div className="bg-jackpot bg-no-repeat bg-cover overflow-hidden 2xl:pt-[350px] sm:pt-[250px] pt-[150px] pb-[350px] translate-y-[-480px]">
           <Jackpot />

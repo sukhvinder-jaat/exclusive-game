@@ -9,7 +9,6 @@ const Footer = () => {
 
   return (
     <div className="bg-black mt-[-100px] relative overflow-hidden">
-      {" "}
       {/* Footer container */}
       {/* Gradient circles */}
       <div className="absolute bg-gradient-to-bl from-lightSky to-lightGreen w-[180px] h-[180px] rounded-full blur-[108px] bottom-[30%] end-[-10%] pointer-events-none"></div>
@@ -17,7 +16,6 @@ const Footer = () => {
       {/* Container */}
       <div className="container max-w-[1140px] mx-auto xl:px-0 px-3 md:pt-16 sm:pt-10 pt-7 pb-10">
         <div className="flex flex-wrap">
-          {" "}
           {/* Flex container */}
           {/* Logo and description */}
           <div className="lg:w-4/12 w-full flex flex-col items-start">
