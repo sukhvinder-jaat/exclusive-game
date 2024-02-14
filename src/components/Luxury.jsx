@@ -8,7 +8,7 @@ import { nutroAtributo } from "./common/Helper";
 const Luxury = () => {
   return (
     <div
-      className="container xl:max-w-[1140px] px-3 mx-auto bg-[url('/assets/images/background/luxury.webp')] bg-no-repeat bg-cover mb-16"
+      className="container xl:max-w-[1140px] px-3 mx-auto bg-luxury bg-no-repeat bg-cover mb-16"
       data-aos="fade-up-right"
     >
       {/* Container for the content */}

@@ -7,7 +7,7 @@ const Propia = () => {
     <div className="container max-w-[1140px] mx-auto xl:px-0 px-3 lg:mb-[150px] mb-20">
       {/* Background with image */}
       <div
-        className="bg-[url('/assets/images/background/lanza.webp')] bg-no-repeat bg-cover flex flex-col items-center justify-center rounded-2xl border-[0.5px] border-silver xl:py-[104px] md:py-20 py-10 !px-2"
+        className="bg-propia bg-no-repeat bg-cover flex flex-col items-center justify-center rounded-2xl border-[0.5px] border-silver xl:py-[104px] md:py-20 py-10 !px-2"
         data-aos="flip-up"
       >
         {/* Title */}
